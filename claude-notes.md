@@ -44,10 +44,18 @@ Response text and artifact with brand colors.
 - Interactive Development: When you want to iterate on the direction with Claude.
 
 
-## Example (Plan-mode)
+## Example 
 
->> We have a new developer joining the team and I want to show them the authentication process. Can you analyze the authentication flow across all related fields. Trace how a login request flows from the route handler through to the database and back to the response. Include all files involved.
+(Plan-mode)
+
+> We have a new developer joining the team and I want to show them the authentication process. Can you analyze the authentication flow across all related fields. Trace how a login request flows from the route handler through to the database and back to the response. Include all files involved.
 
 .....RESPONSE.....
 
->> Can you also create the README.md with current setup instructions. Incliude enviornment variables, database setup, and how to run the dev server - follow the format in @CLAUDE.md. Keep it concise - just what someone needs to get started.
+(Edit-automatically)
+
+> Can you also create the README.md with current setup instructions. Incliude enviornment variables, database setup, and how to run the dev server - follow the format in @CLAUDE.md. Keep it concise - just what someone needs to get started.
+
+
+>> Can you generate API documenation for all the auth endpoints we've created. Follow the format in @CLAUDE.md - keep it simple and practical.
+
