@@ -19,3 +19,17 @@
 ### Prompt to fix the error I inserted
 
 > Can you look over the code for any errors in fetch request URLs?
+
+### Prompt to trigger the Read tool
+
+> Pick one function in the server file and explain it to me.
+
+### Prompt to trigger the WebSearch tool
+
+> Can you explain the difference between versions 9 and 10 of the better-sqlite3 library?
+
+## Exploring Claude Skills
+
+### Prompt to see what skills are available
+
+> What skills do you have available?

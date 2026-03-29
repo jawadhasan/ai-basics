@@ -45,3 +45,39 @@ Going step-by-step increases the odds of acceptable model performance.
 
 This technique is similar to the use of work breakdown structures in project management.
 
+## Consequences of reaching the Context Limit
+
+- More Token Usage 
+- Decreased quality or relevance
+- Repetitive behavior or errors
+- Slower response time
+
+Stratigies to Counter
+
+- Leverage the Claude.md file
+- Work in Focused Chunks
+- Explicit file inclusion
+- Module specific summary
+- Start New Chats
+
+## Claude Code Use Cases
+
+### Code/File Analysis
+
+- New Codebase - Ask Claude to explain the architecture.
+- Code reviews - Ask Claude to trace the impact of a change across the system.
+- Debugging - Ask Claude to follow data through the system to find when things go wrong.
+
+
+### Full Stack Features
+
+- Reference existing patterns with @ 
+
+e.g. "Follow the pattern in @existingFile.ts" helps Claude match your codebase’s style
+
+- Be specific about your needs - 
+
+Listing out the components - route, controller, service, types  helps Claude create a complete solution.
+
+- Review Changes - Claude can make mistakes
+
