@@ -9,6 +9,16 @@ Some General Tips.
 - Creat specialized agents.
 - Provide examples of tasks and outputs.
 
+## Popular Prompt Frameworks
+
+- Zero-shot.
+- Few-shot.
+- Chain-of-thought.
+- React.
+- Role-based.
+- Tree-of-thought
+
+
 ## Improving the Odds of LLM success
 
 - Asking models to explain themselves can improve the answers we recieve.
