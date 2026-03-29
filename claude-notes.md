@@ -1,6 +1,27 @@
 
 # Claude Notes
 
+## Workflow
+
+1. Run /init to generate the base CLAUDE.md
+2. Open CLAUDE.md and add your own context
+3. Commit it so yur whole team benefits
+
+## CLAUDE.md
+
+Calaude's Context Window or working memory.
+
+Typically contains:
+- Tech Stack
+- Project Structure
+- Conventions
+
+During work, your conversation, current working files, Claude's own responses add up -> 200,000 tokens limit ~600 pages of text.
+
+
+
+
+
 ## Confiugration added to CLAUDE.md
 
 - Git workflows

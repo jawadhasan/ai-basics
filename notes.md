@@ -15,7 +15,18 @@ A journey of thousand miles.
 - Multi-agent communication.
 - Conversational agents with specialized roles.
 - Funciton calling and tools integration.
-- Emergin Agent protocls - Agent-to-agent Protocol (A2A) by Google, Agent Communcation Protocl (ACP) by IBM, and Model Context Protocl (MCP) by Anthropic for connectivng AI assistants to externaal data sources and tools.
+- Emergin Agent protocls. 
+
+### Agent Protocols
+
+Each have a different purpose.
+
+- Agent-to-agent Protocol (A2A) - Google 
+ - for comunication between agents.
+- Agent Communcation Protocl (ACP) - IBM
+ - for agent negotiation, task delegation and structured messaging.
+- Model Context Protocl (MCP) - Anthropic
+ - for connectivng AI assistants to externaa data-sources and tools.
 
 
 
