@@ -19,6 +19,13 @@ Where Claude code skills are stored?
 
 User-defined shell commands that execute at various points in Claude code's lifecyle, providing deterministic control over Calaude Code's behavior. Claude code skills are stored?
 
+## MCP Why it Matters
+
+Allows Claude to access beyound local file system.
+
+- Lets claude-code review pull requests directly.
+- Fetches design updates form tools like Figma.
+
 ## Claude Skills vs. CLAUDE.md effcts on Context
 
 Prompt:
@@ -31,6 +38,23 @@ Generate a chart with attached sales data (attach abc.csv).
 Response:
 
 Response text and artifact with brand colors.
+
+## What's a Subagent
+
+- Task-specific assistant - called by the main agent for specialized help.
+- Isolated execution context - Separate context window, defined role, scoped tool access.
+- Independent execution - Returns results to main agent.
+
+## WhyUse Subagents
+
+- Preserve main context - keep the core conversation focused.
+- Reduce cognitive clutter - Offload verbose skills like tests, audits and documentation.
+- Enable specialization - Delegate work to role-specific subagents.
+
+- Examples, code-reviewer.md, content-reviewer.md, doc-generator.md under .claude directory
+
+- command `/agents`
+
 
 
 ## Plan Mode
@@ -57,5 +81,5 @@ Response text and artifact with brand colors.
 > Can you also create the README.md with current setup instructions. Incliude enviornment variables, database setup, and how to run the dev server - follow the format in @CLAUDE.md. Keep it concise - just what someone needs to get started.
 
 
->> Can you generate API documenation for all the auth endpoints we've created. Follow the format in @CLAUDE.md - keep it simple and practical.
+> Can you generate API documenation for all the auth endpoints we've created. Follow the format in @CLAUDE.md - keep it simple and practical.
 

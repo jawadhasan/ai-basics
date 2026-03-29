@@ -55,9 +55,17 @@ This technique is similar to the use of work breakdown structures in project man
 Stratigies to Counter
 
 - Leverage the Claude.md file
+>Make sure you create one with the /init comand for any existing codebases.
+
 - Work in Focused Chunks
+> Refactor the authentication module to use the new error handling pattern.
+
 - Explicit file inclusion
+>Looking only @backend/src/symptoms.ts @backend/src/controllers/symbptomsController ....
+
 - Module specific summary
+>Create a summaryof the authentication module - what files are involved, how they connect and what patterns they use.
+
 - Start New Chats
 
 ## Claude Code Use Cases
