@@ -12,6 +12,7 @@
 Calaude's Context Window or working memory.
 
 Typically contains:
+
 - Tech Stack
 - Project Structure
 - Conventions

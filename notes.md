@@ -19,7 +19,7 @@ A journey of thousand miles.
 
 ### Agent Protocols
 
-Each have a different purpose.
+Each protocol has a different purpose.
 
 - Agent-to-agent Protocol (A2A) - Google 
  - for comunication between agents.

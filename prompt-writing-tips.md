@@ -52,7 +52,11 @@ This technique is similar to the use of work breakdown structures in project man
 - Repetitive behavior or errors
 - Slower response time
 
-Stratigies to Counter
+## Stratigies to Counter
+
+- Focused Prmopts
+- Good Documentation
+- Strategic File Referenes
 
 - Leverage the Claude.md file
 >Make sure you create one with the /init comand for any existing codebases.
