@@ -57,10 +57,89 @@ RTCF gets us solid results. May be response is good, but you wants to push furth
   Use few-shot for complex and custom patterns.
 
 
+
+### Example
+
+Role: You are a business analyst preparing stakeholder communications.
+
+Task: Create a weekly status report for the inventory system project.
+
+Context: The dev team completed their ERP integration assessment and found two integration options. Barcode scanning requirements are being documented. Budget is at $42K of $50K approved.
+
+Format:  Include sections for accomplishments, in-progress items, risks and next steps. Use bullet points.
+
+
+[....CLAUDE-RESPONSE MAY FORMAT OUTPUT DIFFERENTLY....]
+
+Role:…
+Task: …
+Context:…
+Format: Follow this exact template, with no emojis:
+PROJECT STATUS REPORT
+Week of: [date]
+Project:[name]
+ACCOMPLISHMENTS
+-[bullet points]
+IN PROGRESS
+-[bullet points]
+BLOCKERS/RISKS
+[bullet points]
+NEST WEEK
+-[bullet points]
+
+
 ## Domain-specific and Multi-turn prompting
 
+Some tasks are too complex for a single prompt. Trying to accomplish everything in one prompt often produces shallow results.
+
+The solution is to break-down the work into focused steps:
+
+- Step-1
+- Step-2
+- Step-3
+
+Each prompting step handle one piece and you build toward a complete deliverable.
+
+There are two approaches to achieve this.
+
+1. Multi-turn prompting
+
+You have a back-and-forth conversation, refining and expanding as you go.   Its kind of a exploraty process since you discover the path as you go along.
+
+Step1 (you): Create an initial list of requirements
+
+Role: You are a business analyst helping document system requirements.
+
+Task: Identify the key business requirements for adding a low-stock alert feature to an inventory management system.
+
+Context: The warehouse operations team needs automatic alerts when inventory falls below reorder thresholds. This is part of inventory system project with a Q2 deadline.
+
+Format: List 5-7 high-level business requirements, each as a single sentence starting with “The system shall….”
+
+[[Claude Response.....]you can decide to deeper on specific area...]
+
+>>Now expand requirement 3 about configurable thresholds. What specific configuration options should users have? Consider different user roles and product categories.
 
 
+[Claude Response.....]
+
+>>Now expand requirement 3 about configurable thresholds. What specific configuration options should users have? Consider different user roles and product categories.
+
+[Claude Response.....]
+
+>>Based on everything we’ve discussed, create a requirements summary table with columns for RequriementId, Description, Priority (High/Medium/Low), and Acceptance Criteria.
+
+Now, if we do this process regularly, we can turn these steps into a prompt-chain for further use.
+
+2. Prompt Chaining
+ 
+ Planning upfront a sequence of prompting steps before you start interacting with claude. 
+
+ Step1: Gather info...
+ Step2: Anlyze and expand....
+ Step3: Create deliverables with...
+
+Prompt-chaining works best for repetable workflows since it always following the pre-planned steps.
 
 
 ---
