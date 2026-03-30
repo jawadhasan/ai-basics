@@ -1,1 +1,0 @@
-Can you create a list of tasks to implement the technical reqirements from @documents/Requirements.md that an intermediate developer would be comfortable with? Put those tasks in a Tasks.md file.
