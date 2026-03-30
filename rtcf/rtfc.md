@@ -9,40 +9,10 @@ RTCF is a starting point, not the finish line.
 - Context: Why (provides background info)
 - Format: How (format to structure output)
 
-## RTCF Example
+see examples 
 
-Role: You are an experienced business analyst skilled at clear communication.
-
-Task: Create a meeting summary from my notes that captures key decisions,  action items and open questions.
-
-Context: This is a 45-minute stakeholder meeting about a new inventory system. Here are my notes....
-
-Format: Structure with sections: key decisions, action items, open questions, next steps, use bullet points, under 300 words
-
-## RTFC Example - UI Design
-
-Role: You are an UI/UX designer skilled at user friendly and easy to use user interfaces design.
-
-Task: Create a mock up of user interface using the attached picture as a base line and provide me a draft. for labels and other text.
-
-Context: I would like to provide this mockup design to user for review.
-
-Format: Simple structure/layout with sections if needed, keep it simple and do not over engineer it.
-
-
-## RTF Example - Data Flow Diagram
-
-Role: You are an UI/UX designer skilled at user friendly and easy to use user interfaces design, Process flow diagram, data flow diagrams etc.
-
-Task: Create a data flow  diagram based on the attached .md file.
-
-Context: I would like to show data flow diagram to people in order to understand the flow on high level.
-
-Format: Simple data flow, do not show code dependencies, keep it simple and do not over engineer it.
-
-
-
-
+[UI Designer](./ui_designer.md)
+[Business Analyst](./business_analyst.md)
 
 ## Refine Your Pormpt
 

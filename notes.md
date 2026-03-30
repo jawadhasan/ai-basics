@@ -13,6 +13,20 @@ LLMs don't in their basic form do calculations. When you ask a primitive LLM wha
 
 That's why situations like our scope-creep example or critical-path calculations can still trip us these models so consistently. They're not applying logic in the way that you or I would think about the problem or in the way that a traditional piece of projet mangement software might.
 
+## How Priorities Affect Model Selection
+
+- Research projects
+
+  Prioritize accuracy over speed. Consider using Larger Liama models.
+
+- Mobile apps
+
+  Model size and efficiency are more important than maximum capability. A compact Mistral model could be the best choice.
+
+- Commercial products
+
+  Reliability, complete documentation, active community support and clear commercial licensing are essential. Liama 3.1. can be a good option.
+
 ## RAG
 
 - RAG combies the power of LLMs with external knowledge basaes to provide accurate, up-to-date information.

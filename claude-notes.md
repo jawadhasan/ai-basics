@@ -22,9 +22,6 @@ Typically contains:
 During work, your conversation, current working files, Claude's own responses add up -> 200,000 tokens limit ~600 pages of text.
 
 
-
-
-
 ## Confiugration added to CLAUDE.md
 
 - Git workflows
@@ -37,8 +34,6 @@ A skill is a folder, it contains one required md file named SKILL.md which defin
 
 your-skill-name-folder -> SKILL.md
 
-
-
 Where Claude code skills are stored?
 
 - System-level (~/.claude/skills-skill-name)
@@ -48,6 +43,9 @@ Where Claude code skills are stored?
 ## Claude Code Hooks
 
 User-defined shell commands that execute at various points in Claude code's lifecyle, providing deterministic control over Calaude Code's behavior. Claude code skills are stored?
+
+- PreToolUse  (Run before any tool-use)
+- PostToolUse (Run after tool-use)
 
 ## MCP Why it Matters
 
@@ -112,4 +110,10 @@ Response text and artifact with brand colors.
 
 
 > Can you generate API documenation for all the auth endpoints we've created. Follow the format in @CLAUDE.md - keep it simple and practical.
+
+## Examples
+
+>Analyze this code for any security concerns and report back in bulleted list of aras that are concerning.
+
+>Can you check the code for any error in fetch URL?
 

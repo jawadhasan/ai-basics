@@ -2,7 +2,7 @@
 
 ## Overview
 
-Some General Tips.
+Understanding "why" an AI tool responds in a certain way helps you contruct better prompts and, in turn, get better answers.
 
 - Write explicit instructions.
 - Be direct about what outputs should look like.
@@ -79,6 +79,6 @@ This technique is similar to the use of work breakdown structures in project man
 >Looking only @backend/src/symptoms.ts @backend/src/controllers/symbptomsController ....
 
 - Module specific summary
->Create a summaryof the authentication module - what files are involved, how they connect and what patterns they use.
+>Create a summary of the authentication module - what files are involved, how they connect and what patterns they use.
 
 - Start New Chats
