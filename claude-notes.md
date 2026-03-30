@@ -1,6 +1,8 @@
 
 # Claude Notes
 
+Claude generate content, but humands are accountable for how it is used.
+
 ## Workflow
 
 1. Run /init to generate the base CLAUDE.md
@@ -30,6 +32,12 @@ During work, your conversation, current working files, Claude's own responses ad
 - Documentation Guidelines
 
 ## Claude Code Skills
+
+A skill is a folder, it contains one required md file named SKILL.md which defines how claude should perform the task. The folder can also include optional supporting material.
+
+your-skill-name-folder -> SKILL.md
+
+
 
 Where Claude code skills are stored?
 

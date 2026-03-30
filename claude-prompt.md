@@ -4,7 +4,25 @@
 - Cotext: Give relavent background information
 - Structure: Organize your request
 
+---
 
+## Prompt Elements
+
+- Task: What claude should do.
+- Instructions: How it should do it.
+- Context: What it need to know
+
+Use **Project** when it seems we are repeating above prompt.
+
+## Project
+
+A project is a dedicated workspace with three core elements.
+
+- Knowledge base - persistent knowledge-base for our documents pdf, csv etc.
+- custom instructions - guides claude behavior in every chat.
+- Conversations - shared conversation space, that keeps related work togather.
+
+---
 
 ## Claude Code Use Cases
 
