@@ -9,6 +9,7 @@ Some General Tips.
 - Creat specialized agents.
 - Provide examples of tasks and outputs.
 
+
 ## Popular Prompt Frameworks
 
 - Zero-shot.
@@ -81,25 +82,3 @@ This technique is similar to the use of work breakdown structures in project man
 >Create a summaryof the authentication module - what files are involved, how they connect and what patterns they use.
 
 - Start New Chats
-
-## Claude Code Use Cases
-
-### Code/File Analysis
-
-- New Codebase - Ask Claude to explain the architecture.
-- Code reviews - Ask Claude to trace the impact of a change across the system.
-- Debugging - Ask Claude to follow data through the system to find when things go wrong.
-
-
-### Full Stack Features
-
-- Reference existing patterns with @ 
-
-e.g. "Follow the pattern in @existingFile.ts" helps Claude match your codebase’s style
-
-- Be specific about your needs - 
-
-Listing out the components - route, controller, service, types  helps Claude create a complete solution.
-
-- Review Changes - Claude can make mistakes
-
