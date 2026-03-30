@@ -71,21 +71,21 @@ Format:  Include sections for accomplishments, in-progress items, risks and next
 
 [....CLAUDE-RESPONSE MAY FORMAT OUTPUT DIFFERENTLY....]
 
-Role:…
-Task: …
+Role:…\
+Task: …\
 Context:…
-Format: Follow this exact template, with no emojis:
-PROJECT STATUS REPORT
-Week of: [date]
-Project:[name]
-ACCOMPLISHMENTS
--[bullet points]
-IN PROGRESS
--[bullet points]
-BLOCKERS/RISKS
-[bullet points]
-NEST WEEK
--[bullet points]
+Format: Follow this exact template, with no emojis:\
+PROJECT STATUS REPORT\
+Week of: [date]\
+Project:[name]\
+ACCOMPLISHMENTS\
+-[bullet points]\
+IN PROGRESS\
+-[bullet points]\
+BLOCKERS/RISKS\
+[bullet points]\
+NEST WEEK\
+-[bullet points]\
 
 
 ## Domain-specific and Multi-turn prompting
