@@ -1,7 +1,7 @@
 
 # Claude Notes
 
-Claude generate content, but humands are accountable for how it is used.
+Claude generate content, but humans are accountable for how it is used.
 
 ## Workflow
 
