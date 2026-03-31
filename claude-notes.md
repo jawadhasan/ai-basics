@@ -121,7 +121,7 @@ Response text and artifact with brand colors.
 
 Build a system that can hypothesize, experiment, and compound over time.
 
-Paste following into your CLAUDE.md file
+Paste following into your CLAUDE.md file:
 
 Before Starting a new task, review existing rules and hypotheses for this domain.
 
