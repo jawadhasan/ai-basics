@@ -13,6 +13,9 @@ LLMs don't in their basic form do calculations. When you ask a primitive LLM wha
 
 That's why situations like our scope-creep example or critical-path calculations can still trip us these models so consistently. They're not applying logic in the way that you or I would think about the problem or in the way that a traditional piece of projet mangement software might.
 
+
+LLMs: anythin above 30B usually require server grade hardware. 7 to 8b may ran on a laptop.
+
 ## How Priorities Affect Model Selection
 
 - Research projects
