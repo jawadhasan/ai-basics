@@ -117,3 +117,24 @@ Response text and artifact with brand colors.
 
 >Can you check the code for any error in fetch URL?
 
+## Knowledge System
+
+Build a system that can hypothesize, experiment, and compound over time.
+
+Paste following into your CLAUDE.md file
+
+Before Starting a new task, review existing rules and hypotheses for this domain.
+
+Apply rules by default. Check if any hypothesis can be tested with today's work.
+
+At the end of each task, extract insights, store them in domain folders e.g:
+/knowledge/
+knowledge.md (facts and patterns)
+hypotheses.md (need more data)
+rules.md (confirmed - apply by default)
+
+Maintain a /knowledge/INDEX.md that routes to each domain folder.
+
+When a hypothesis gets confirmed 5+ times, promoto it to a rule.
+
+When a rule gets contradicted by new data, demote it back to a hypothesis.

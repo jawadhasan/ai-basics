@@ -9,10 +9,12 @@ RTCF is a starting point, not the finish line.
 - Context: Why (provides background info)
 - Format: How (format to structure output)
 
-see examples 
+Examples:
 
 [UI Designer](./ui_designer.md)
+
 [Business Analyst](./business_analyst.md)
+
 
 ## Refine Your Pormpt
 
